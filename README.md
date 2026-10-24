@@ -1,4 +1,4 @@
-﻿# Telco Customer Churn Prediction
+# Telco Customer Churn Prediction
 
 ## 📋 Project Overview
 
@@ -18,18 +18,18 @@ Predict which customers are likely to churn (leave the company) based on their d
 ```
 Telco-Customer-Churn-Prediction/
 │
-├── Data/                # Data.csc,cleaned_dataset.csv,Featured_Data.csv
+├── Data/
+│   ├── Data.csv                 # Raw dataset
+│   ├── cleaned_dataset.csv      # After cleaning
+│   └── Featured_Data.csv        # After feature engineering
 │
-├── Notebooks/           # Jupyter notebooks for each step
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_eda
-│   ├── 03_feature_engineering.ipynb
-│   ├── 04_modeling.ipynb
+├── NoteBook/
+│   ├── data_clening.ipynb       # 1. Data cleaning
+│   ├── Feature_Eng.ipynb        # 2. EDA + feature engineering
+│   └── Models_train.ipynb       # 3. Model training and evaluation
 │
-├── Outputs/             # Plots ,results
-├── requirements.txt     # Python dependencies
-├── README.md            # Project documentation
-└── .gitignore
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -89,7 +89,7 @@ The model can accurately identify customers at risk of churning, enabling target
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/qosain-bukhari/Telco-Customer-Churn-Prediction.git
+   git clone https://github.com/QosainBukhari/Telco-Customer-Churn-Prediction.git
    cd Telco-Customer-Churn-Prediction
    ```
 2. **Install dependencies:**
@@ -112,7 +112,7 @@ The model can accurately identify customers at risk of churning, enabling target
 
 - Qosain Bukhari  
 -
-https://github.com/qosain-bukhari/Telco-Customer-Churn-Prediction
+https://github.com/QosainBukhari/Telco-Customer-Churn-Prediction
 ---
 
 ## 📄 License
